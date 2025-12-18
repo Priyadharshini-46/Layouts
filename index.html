@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Priyadharshini-Portfolio</title>
+</head>
+<body>
+<style>
+
+* {
+box-sizing: border-box;
+font-family: Times New Roman;
+}
+
+header {
+background:#b4b4b4;
+color: white;
+text-align: center;
+padding: 20px;
+}
+
+
+.main {
+flex:7;
+padding: 40px;
+}
+
+.button {
+background-color:rgba(255, 0, 0, 0.4);
+font-size: 15px;
+padding: 12px;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.skills {
+background:hsla(0, 100%, 70%, 0.3);
+padding:15px;
+border-radius:10px;
+margin-bottom:15px;
+box-shadow:0 5px 10px rgba(0,0,0,0.1);
+}
+
+.projects{
+display:grid;
+grid-template-columns: repeat(3,1fr);
+gap:20px;
+}
+
+.project{
+background:hsla(0, 100%, 50%, 0.3);
+padding:15px;
+width:100%;
+border-radius:10px;
+box-shadow:0 5px 10px rgba(0,0,0,0.5);
+}
+
+.education {
+column-count:2;
+column-gap:20px;
+}
+
+.edu-content {
+background: hsla(0, 100%, 50%, 0.3);
+padding:15px;
+margin-bottom:20px;
+border-radius:10px;
+border:1px solid #ddd;
+break-inside:avoid;
+box-shadow:0 5px 10px rgba(0,0,0,0.3);
+}
+
+@media (max-width: 768px) {
+.layout {
+flex-direction: column;
+}
+
+.sidebar, .main {
+width: 100%;
+padding: 20px;
+}
+
+#profile {
+width: 180px;
+height: 180px;
+}
+
+header h1 {
+font-size: 22px;
+}
+
+header h3 {
+font-size: 14px;
+}
+
+p {
+font-size: 14px;
+}
+
+.button {
+width: 100%;
+text-align: center;
+}
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+.sidebar {
+flex: 4;
+}
+
+.main {
+flex: 6;
+}
+
+#profile {
+width: 220px;
+height: 220px;
+}
+
+header h1 {
+font-size: 28px;
+}
+}
+
+</style>
+
+</body>
+
+<header>
+<h1 style="color:black">PRIYADHARSHINI SAKTHIVEL</h1>
+<h3 style="color:#616161"> Computer Science Student | Aspiring Developer </h3>
+<p> "Building practical solutions through code and creativity" </p>
+</header>
+
+<div class="main">
+<section class="education">
+<div class="edu-content">
+<h3> ABOUT ME </h3>
+<p> I’m a 2nd-year Computer Science student specializing in Information Technology, with a strong interest in building practical and user-friendly applications. I have foundational skills in HTML, CSS, and JavaScript, and I’m currently learning Java, C, and Python. I enjoy learning through projects, hackathons, and ideathons, and I’m eager to grow as a developer. </p>
+</div>
+
+<div class="edu-content">
+<h3>CONTACT</h3>
+<p> Email: priyasakthi7860@gmail.com</p>
+
+<p> Linkedin profile: </p>
+
+<p><a href="https://www.linkedin.com/in/priyadharshini-sakthivel-7b37ab34b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"> Priyadharshini-Linkedin </a></p>
+
+<p> Github profile: </p>
+<p><a href="https://github.com/Priyadharshini-46" target="_blank"> Priyadharshini-46</a></p>
+</div>
+
+<div class="edu-content">
+<h2>SKILLS</h2>
+<p> Frontend: HTML, CSS, JavaScript </p>
+<p> Programming Languages: Java, C, Python </p>
+<p> Tools: GitHub, VS Code </p>
+<p> Concepts: OOP, Basics of DSA </p>
+</div>
+
+<div class="edu-content">
+<h2> CERTIFICATES </h2>
+<p> Participated in hackathons in college </p>
+<p> Final round certification of ideathon, pitched idea about smart lost and found mobile application</p>
+<p> NPTEL cerficate for completing 12 week course </p>
+<p> Deloitte certificate for completing cyber job simulation course</p>
+</div>
+</div>
+
+<h2> PROJECTS </h2>
+<section>
+<div class="skills">
+
+<h4> HOSPITAL APPOINTMENT BOOKING SYSTEM</h4>
+<p> A Java-based desktop application built using Swing and MySQL that enables secure, role-based login for Admin, Doctor, and Patient users. It streamlines appointment management through an interactive GUI and database-driven authentication.</p>
+</div>
+
+<div class="skills">
+<h4> BOOTH ALGORITHM SIMULATOR </h4>
+<p> An interactive simulator that demonstrates Booth’s Algorithm for signed binary multiplication with step-by-step visualization.This project helped strengthen my understanding of binary arithmetic, 2’s complement representation, and computer architecture concepts.</p>
+</div>
+
+<div class="skills">
+<h4> SMART LOST AND FOUND MOBILE APP </h4>
+<p>  Developed a Smart Lost & Found mobile app that integrates location history tracking and AI-based image matching to help users recover lost items efficiently. The app combines personal movement timelines with a community-driven lost & found system, focusing on usability, privacy, and real-world problem solving.</p>
+</div>
+</section>
+
+<h2>EDUCATION</h2>
+<section>
+<div class="projects">
+<div class="project">
+<p>B.Tech – Computer Science Engineering<p>
+<p>Specialization: Information Technology</p>
+<p>SRM University of Science and Technology, KTR</p>
+<p>2024 – 2028</p>
+</div>
+
+<div class="project">
+<p>Higher Secondary (12th)</p>
+<p>CBSE</p>
+<p> Velammal Bodhi Campus, Vellore</p>
+<p>2022 – 2024</p>
+</div>
+
+<div class="project">
+<p>Secondary School (10th)</p>
+<p>CBSE</p>
+<p> Velammal Bodhi Campus, Vellore</p>
+<p>Completed in 2022</p>
+</div>
+</div>
+</section>
+
+
+<h2> RESUME SECTION </h2>
+<button class="button"><a href= "https://priyadharshini-resume.netlify.app" target="_blank"> Priyadharshini-Resume </a></p> 
+</div>
+</html>
